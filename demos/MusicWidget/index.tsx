@@ -45,7 +45,7 @@ const MusicWidget = () => {
         leaning={leaning}
         setLeaning={setLeaning}
         volume={volume}
-        muted={muted}
+    
        />
       ))} 
       

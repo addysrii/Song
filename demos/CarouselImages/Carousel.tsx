@@ -1,5 +1,7 @@
 "use client"
+// @ts-ignore
 import Slider from "@madzadev/image-slider";
+
 import "@madzadev/image-slider/dist/index.css";
 import { motion } from "framer-motion"
 import { container, children } from "./animations";

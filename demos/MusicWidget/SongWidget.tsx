@@ -4,6 +4,20 @@ import Image from "next/image";
 import { cn } from "@/utils";
 import WaveForm from "./WaveForm";
 import RotationText from "./RotationText";
+type SongWidgetProps = {
+  song: {
+    id: string;
+    title: string;
+    artist: string;
+    image: string;
+  };
+  orderedSongs: string[];
+  emitSwipe: (direction: "left" | "right") => void;
+  leaning: "left" | "right" | null;
+  setLeaning: (leaning: "left" | "right" | null) => void;
+  volume: number;
+  previousOrderedSongs: string[];
+};
 
 const SongWidget: FC<SongWidgetProps> = ({
   song,
