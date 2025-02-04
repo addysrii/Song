@@ -132,28 +132,28 @@ export const songs: Song[] = [
     artist: 'Aditya Rikhari',
     image: 'https://i.scdn.co/image/ab67616d0000b27361589325f2ee1797c6527512'
   },
-  {
-    id:'te-amo',
-    title: 'Te Amo',
-    artist: 'Pritam, Ash King, Sunidhi Chauhan',
-    image: 'https://i.scdn.co/image/ab67616d0000b273e39388ba8eadf58476135087'
-  },
-  {
-    id: 'soniyo',
-    title: 'Soniyo',
-    artist: 'Sonu Nigam, Shreya Ghoshal',
-    image: 'https://i.scdn.co/image/ab67616d0000b273bf8dad28cba0f3680ee29364'
-  },
-  {
-    id: 'main-kho-gaya',
-    title: 'Main Kho Gaya',
-    artist: 'Kushagra, Showkidd',
-    image: 'https://i.scdn.co/image/ab67616d0000b273d351cc37d32c5af7e6ff5dec'
-  },
-  {
-    id: 'baawra',
-    title: 'Baawra',
-    artist: 'Kushagra, Tanishka Bahl',
-    image: 'https://i.scdn.co/image/ab67616d0000b27384723b3228ffb6b6b661e277'
-  }
+  // {
+  //   id:'te-amo',
+  //   title: 'Te Amo',
+  //   artist: 'Pritam, Ash King, Sunidhi Chauhan',
+  //   image: 'https://i.scdn.co/image/ab67616d0000b273e39388ba8eadf58476135087'
+  // },
+  // {
+  //   id: 'soniyo',
+  //   title: 'Soniyo',
+  //   artist: 'Sonu Nigam, Shreya Ghoshal',
+  //   image: 'https://i.scdn.co/image/ab67616d0000b273bf8dad28cba0f3680ee29364'
+  // },
+  // {
+  //   id: 'main-kho-gaya',
+  //   title: 'Main Kho Gaya',
+  //   artist: 'Kushagra, Showkidd',
+  //   image: 'https://i.scdn.co/image/ab67616d0000b273d351cc37d32c5af7e6ff5dec'
+  // },
+  // {
+  //   id: 'baawra',
+  //   title: 'Baawra',
+  //   artist: 'Kushagra, Tanishka Bahl',
+  //   image: 'https://i.scdn.co/image/ab67616d0000b27384723b3228ffb6b6b661e277'
+  // }
 ].reverse()
