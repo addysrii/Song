@@ -5,9 +5,9 @@ import "@madzadev/image-slider/dist/index.css";
 import { motion } from "framer-motion"
 import { container, children } from "./animations";
 const images = [
-  { url: "/assets/images/img1.jpg" },
-  { url: "/assets/images/img2.jpg" },
-  { url: "/assets/images/img3.jpg" },
+  { url: "/assets/images/img1.JPG" },
+  { url: "/assets/images/img2.JPG" },
+  { url: "/assets/images/img3.JPG" },
   { url: "/assets/images/img4.jpg" },
   { url: "/assets/images/img5.jpg" },
   { url: "/assets/images/img6.jpg" },
