@@ -10,6 +10,7 @@ type SongWidgetProps = {
     title: string;
     artist: string;
     image: string;
+  url:string;
   };
   orderedSongs: string[];
   emitSwipe: (direction: "left" | "right") => void;
@@ -149,7 +150,7 @@ const SongWidget: FC<SongWidgetProps> = ({
             </button>
           </div>
         </div>
-        <audio className="hidden" ref={audioRef} src={`/api/audio?id=${song.id}`} loop />
+        <audio className="hidden" ref={audioRef} src={`${song.url}`} loop />
       </div>
     </motion.div>
   );
